@@ -12,16 +12,25 @@ const breakpoints = {
 const theme = extendTheme({
   semanticTokens: {
     colors: {
+      button: {
+        default: '#14f195',
+      },
       text: {
-        default: '#16161D',
+        default: '#ffffff',
         _dark: '#ade3b8',
       },
+      accentText: {
+        default: '#000000',
+      },
+      factContainerBackground: {
+        default: '#000000',
+      },
       heroGradientStart: {
-        default: '#7928CA',
+        default: 'rgb(171, 102, 255) ',
         _dark: '#e3a7f9',
       },
       heroGradientEnd: {
-        default: '#FF0080',
+        default: 'rgb(20, 241, 149) ',
         _dark: '#fbec8f',
       },
     },

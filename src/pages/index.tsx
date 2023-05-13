@@ -27,7 +27,7 @@ const Index: NextPageWithLayout = () => {
     <Container height="100vh">
       <Hero />
       <Main>
-        <Text color="text" fontSize={"xl"} align={"center" } mt="-1rem" mb="2rem">Copy those facts and fight the FUD</Text>
+        <Text color="accentText" fontSize={"xl"} align={"center" } mt="-1rem" mb="2rem">Copy those facts and fight the FUD</Text>
 
         <UnorderedList spacing={3} my={0} color="text">
           {

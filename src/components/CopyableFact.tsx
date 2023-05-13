@@ -9,9 +9,9 @@ import {
 export const CopyableFact = ({fact}: any) => {
   const { onCopy } = useClipboard(fact);
   return (
-    <HStack bg="gray.100" rounded={"xl"} mb="1rem">
+    <HStack bg="factContainerBackground" p={'2'} rounded={"xl"} mb="1rem">
       <Text>{fact}</Text>
-      <Button onClick={onCopy}>
+      <Button onClick={onCopy} bg='button' color='accentText'>
         <CopyIcon />
       </Button>
     </HStack>
