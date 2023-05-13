@@ -1,5 +1,5 @@
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from '@solana/web3.js'
 
 export const PROGRAM_ID = new PublicKey(
-  process.env.NEXT_PUBLIC_PROGRAM_ID ?? ""
-);
+    process.env.NEXT_PUBLIC_PROGRAM_ID ?? ''
+)
