@@ -21,7 +21,7 @@ To get started, you have two options. If you're comfortable with a standard deve
 5. Push your changes to your forked repository.
 6. Open a pull request to merge your changes into the main Solana Facts repository.
 
-If you're newer or maye even non-technical, try this route:
+If you're newer or maybe even non-technical, try this route:
 
 1. Fork this repository to your own GitHub account. If you've already forked, make sure to update your fork.
 1. Go to [this file](https://github.com/kgilliam125/solana-facts/blob/main/src/data/facts.ts)
